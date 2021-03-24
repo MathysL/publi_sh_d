@@ -1,0 +1,85 @@
+<<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Index pagina ReceptenFormulier</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link rel="stylesheet" href="styles.scss" />         -->
+</head>
+<nav>
+<a href=https://github.com/MathysL/WincAcademy-Homework/blob/FSD_home/ReceptenFormulier/index.html>Index</a>
+
+<a href=https://github.com/MathysL/WincAcademy-Homework/blob/FSD_home/ReceptenFormulier/receptenPagina.html>Recepten uploaden</a>
+</nav>
+<body>
+<form name="Name, number and e-mail:" method="POST" data-netlify="true">
+<p>
+<label>Your Name:           <input type="text" name="name" /></label>
+</p>
+<p>
+<label>Your Phone number : <input type="number" name="phone" /></label>
+</p>
+<p>
+<label>Your Email:           <input type="email" name="email" /></label>
+</p>
+
+<form name="Selecteer (een radio knop)" method="POST" data-netlify="true">
+  <input type="radio" id="male" name="gender" value="Man">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="Vrouw">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="Anders">
+  <label for="other">Other</label>
+</form> 
+<form name="favoriete cuisine" method="POST" data-netlify="true">
+<h3>favoriete cuisine: </h3>
+  <input type="checkbox" id="frans" name="frans" value="Fr">
+  <label for="frans">Frans</label><br>
+  <input type="checkbox" id="italiaans" name="italiaans" value="It">
+  <label for="italiaans">Italiaans</label><br>
+  <input type="checkbox" id="spaans" name="spaans" value="Es">
+  <label for="spaans">Spaans</label>
+  <input type="checkbox" id="arabisch" name="arabisch" value="Ar">
+  <label for="arabisch">Arabisch</label>
+</form> 
+<form name="colorpicker" method="POST" data-netlify="true">
+  <input type="color" id="color" name="color" value="color">
+  <label for="Color">Kies je favoriete kleur van je short</label>
+  <br>
+ </label>
+</form>
+
+<form name="biografie " method="POST" data-netlify="true">
+<p>
+<label>biografie: <textarea input type="textarea" name="textarea"</label>
+</textarea>
+  </p>
+          biografie (text-area) 
+          upload
+          je laatste recept (upload een file) url naar je recepten website (url)
+          
+          een button van het type "reset" om het formulier leeg te kunnen maken
+          een button van het type "submit" om het formulier te kunnen verzenden
+<p>
+  <form name="colorpicker" method="POST" data-netlify="true">
+    <input type="submit" id="uploaden" name="uploaden" value="Bestand">
+    <label for="Uploaden">Kies je Recept om te uploaden</label>
+  </form>
+</p>
+<p>
+<button type="submit">Send =></button>
+</p>
+<p>
+<button type="reset">reset form (X) =></button>
+</p> </form>
+</body>
+<footer>
+  <p class="black-border">&copy; 2021 Mathijs Linssen</p>
+</footer>
+</html>
